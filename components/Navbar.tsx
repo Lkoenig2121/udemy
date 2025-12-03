@@ -184,79 +184,79 @@ export default function Navbar() {
                     </h3>
                     <div className="space-y-1">
                       <Link
-                        href="/courses?category=Software Engineering"
+                        href="/categories/development"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Development
                       </Link>
                       <Link
-                        href="/courses?category=Entrepreneurship"
+                        href="/categories/business"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Business
                       </Link>
                       <Link
-                        href="/courses?category=Software Engineering"
+                        href="/categories/finance"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Finance & Accounting
                       </Link>
                       <Link
-                        href="/courses?category=Software Engineering"
+                        href="/categories/it-software"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         IT & Software
                       </Link>
                       <Link
-                        href="/courses?category=Software Engineering"
+                        href="/categories/office-productivity"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Office Productivity
                       </Link>
                       <Link
-                        href="/courses?category=Software Engineering"
+                        href="/categories/personal-development"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Personal Development
                       </Link>
                       <Link
-                        href="/courses?category=Graphic Design"
+                        href="/categories/design"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Design
                       </Link>
                       <Link
-                        href="/courses?category=Entrepreneurship"
+                        href="/categories/marketing"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Marketing
                       </Link>
                       <Link
-                        href="/courses"
+                        href="/categories/lifestyle"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Lifestyle
                       </Link>
                       <Link
-                        href="/courses"
+                        href="/categories/photography"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Photography & Video
                       </Link>
                       <Link
-                        href="/courses"
+                        href="/categories/health-fitness"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Health & Fitness
                       </Link>
                       <Link
-                        href="/courses"
+                        href="/categories/music"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Music
                       </Link>
                       <Link
-                        href="/courses"
+                        href="/categories/teaching-academics"
                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 rounded transition"
                       >
                         Teaching & Academics
