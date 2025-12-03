@@ -112,7 +112,7 @@ export default function CoursesPage() {
                 {filteredCourses.map((course) => (
                   <div
                     key={course.id}
-                    className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer"
+                    className="flex flex-col border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer h-full"
                   >
                     <div className="relative">
                       <img
@@ -126,7 +126,7 @@ export default function CoursesPage() {
                         </div>
                       )}
                     </div>
-                    <div className="p-4">
+                    <div className="p-4 flex flex-col flex-grow">
                       <h3 className="font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-purple-600 transition">
                         {course.title}
                       </h3>
@@ -143,7 +143,7 @@ export default function CoursesPage() {
                           ({course.reviews.toLocaleString()})
                         </span>
                       </div>
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 mb-4">
                         <span className="text-xl font-bold text-gray-900">${course.price}</span>
                         <span className="text-sm text-gray-500 line-through">
                           ${course.originalPrice}
@@ -152,7 +152,7 @@ export default function CoursesPage() {
                       {isPurchased(course.id) ? (
                         <button
                           onClick={() => router.push('/my-courses')}
-                          className="w-full mt-4 py-2 font-semibold rounded transition bg-green-600 text-white hover:bg-green-700"
+                          className="w-full mt-auto py-2 font-semibold rounded transition bg-green-600 text-white hover:bg-green-700"
                         >
                           Go to Course
                         </button>
@@ -160,7 +160,7 @@ export default function CoursesPage() {
                         <button
                           onClick={() => addToCart(course)}
                           disabled={isInCart(course.id)}
-                          className={`w-full mt-4 py-2 font-semibold rounded transition ${
+                          className={`w-full mt-auto py-2 font-semibold rounded transition ${
                             isInCart(course.id)
                               ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
                               : 'bg-purple-600 text-white hover:bg-purple-700'
